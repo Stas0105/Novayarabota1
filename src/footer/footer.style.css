@@ -1,0 +1,16 @@
+.contact {
+    display: flex;
+    justify-content: space-around;
+}
+.Ter {
+    padding-top: 50px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Sriracha', cursive;
+}
+.IF {
+    padding-top: 50px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Sriracha', cursive;
+}
