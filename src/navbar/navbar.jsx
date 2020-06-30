@@ -15,10 +15,10 @@ class Navbar extends React.Component {
                 </a>
             </div>
             <div className="navbartext">
-                <div><Navbarcomponent text="Головна" /></div>
-                <div><Navbarcomponent text="Про нас" /></div>
+                <div><Navbarcomponent text="Головна"/></div>
+                <div><Navbarcomponent text="Ціни" /></div>
                 <div><Navbarcomponent text="Візи" /></div>
-                <div><Navbarcomponent text="Робота за кордоном" /></div>
+                <a href="https://novayarabota.com/vacations/"><div><Navbarcomponent text="Робота за кордоном" /></div></a>
                 <div><Navbarcomponent text="Квитки" /></div>
                 <div><Navbarcomponent text="Співпраця" /></div>
             </div>

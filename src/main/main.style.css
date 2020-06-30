@@ -1,0 +1,17 @@
+.main1 {
+    width: 100%;
+    display: flex;
+}
+.mainleft {
+    margin-left: 3%;
+    margin-top: 50px;
+    width: 50%;
+}
+.mainright {
+    margin-left: 5%;
+    width: 30%;
+    margin-top: 70px;
+    font-size: 20px;
+    color:  darkmagenta;
+    font-weight: bold;
+}

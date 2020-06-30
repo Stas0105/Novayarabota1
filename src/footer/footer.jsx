@@ -3,7 +3,7 @@ import './footer.style.css'
 import Footcomponent from './footer.component';
 
 const Footer = ({}) => (
-    <div>
+    <div className="high">
         <div><h1>Зв'язок з нами</h1></div>
         <div className="contact">
             <div className="Ter">

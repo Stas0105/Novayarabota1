@@ -1,3 +1,6 @@
+.high {
+    padding-top: 100px;
+}
 .contact {
     display: flex;
     justify-content: space-around;

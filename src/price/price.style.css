@@ -1,0 +1,27 @@
+.main {
+    margin: auto;
+    width: 100%;
+    padding-top: 50px;
+}
+.top {
+    display: flex;
+    width: 100%;
+}
+.center {
+    display: flex;
+    width: 100%;
+}
+.bot {
+    display: flex;
+    width: 100%;
+}
+.store {
+    border: orchid 2px solid;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    width: 33%;
+    border-radius: 15px;  
+    text-align: center;
+
+}
