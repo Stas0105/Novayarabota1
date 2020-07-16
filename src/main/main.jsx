@@ -5,8 +5,16 @@ import Back from '../images/back.jpg'
 
 const Main = () => (
     <div className="main1">
-        <div className="mainleft"><img src={Back}/> </div>
-        <div className="mainright"><Maincomponent text="Novayarabota - компанія, яка спеціалізується на працевлаштуванні людей за кордоном та виготовленні документів для працевлаштуання(Запрошення, страхівка, трансфер). Ми пропонуємо високооплачувану та надійну роботу для чоловіків, жінок та сімейних пар у багатьох містах Польщі та Чехії." /></div>
+        <div className="mainleft"><img src={Back} alt="Background"/> </div>
+        <div className="mainright">
+            <Maincomponent 
+                text="Novayarabota - компания, которая специализируется 
+                на трудоустройстве людей за границей и изготовлении 
+                документов для трудоустройства (Приглашение, страховка, 
+                трансфер). Мы предлагаем высокооплачиваемую и надежную 
+                работу для мужчин, женщин и семейных пар во многих 
+                городах Польши и Чехии." />
+        </div>
     </div>
 )
 export default Main;

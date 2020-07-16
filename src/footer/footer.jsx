@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.style.css'
 import Footcomponent from './footer.component';
 
-const Footer = ({}) => (
+const Footer = () => (
     <div className="high">
         <div><h1>Зв'язок з нами</h1></div>
         <div className="contact">

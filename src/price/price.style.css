@@ -16,12 +16,19 @@
     width: 100%;
 }
 .store {
-    border: orchid 2px solid;
+    height: 150px;
+    font-size: 20px;
+    border: indigo 4px dashed;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 50px;
     width: 33%;
     border-radius: 15px;  
-    text-align: center;
+    color: purple;
+    vertical-align: middle;
 
+}
+.store p {
+    text-align: center;
+    margin: 0;
 }
