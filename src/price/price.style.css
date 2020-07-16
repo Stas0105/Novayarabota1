@@ -26,9 +26,56 @@
     border-radius: 15px;  
     color: purple;
     vertical-align: middle;
+    
 
 }
 .store p {
     text-align: center;
     margin: 0;
 }
+.store div button{
+    height:50px;
+    width:150px;
+    border-color: red;
+    position: absolute;
+    margin-top: 50px;
+    margin: 0;
+    
+    
+}
+.store .btn {
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 50px;
+    display: none;
+}
+.top :hover  .btn {
+        display: block;
+    }
+    .btn button {
+        cursor: pointer;
+    }
+.center :hover  .btn {
+        display: block;
+    }
+    .btn button {
+        cursor: pointer;
+    }
+.bot :hover  .btn {
+        display: block;
+    }
+    .btn button {
+        cursor: pointer;
+    }
+.form {
+    position: absolute;
+    width:33%;
+    height: 200px;
+    border:blue 2px solid;
+    margin-left: 33%;
+    background-color: blanchedalmond;
+    margin-top: 200px;
+    display: none;
+}
+
+
