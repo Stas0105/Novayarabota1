@@ -1,27 +1,32 @@
 import React from 'react';
 import './price.style.css'
 import Pricecomponent from './price.component';
-import showform from './btnscript.js'
+import {showform} from './btnscript.js';
+import Close from '../images/Close.png';
+import {Nonform} from './btnscript.js'
 const Price = () => (
-    <div className="main">
+    <div id="main">
         <h1><Pricecomponent text="Цены" /></h1>
-        <div className="form">
-            <input type="text" placeholder="номер телефона"/>
-        </div>
+            <div id="form">]
+            <form>
+                    <button id="btn1" onClick={Nonform}> <img src={Close}/></button>
+                    <input type="text" placeholder="номер телефона"/>
+                    </form>
+            </div>
         <div className="top">
             <div className="store">
-                <div className="btn">
-                    <button> Купить </button>
-                    </div>
+                <div className="btn" >
+                    <button onClick={showform}><span className="buy">Купить </span> </button>
+                </div>
                 <p>
                 <Pricecomponent text="Пакет документов 180/365" /> 
                 <Pricecomponent text="Полугодовые приглашение 180 / 180-180 / 365-3-4 дней (электронные) или + доставка -2400 грн" />
                 </p>
                 
             </div>
-            <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+                <div className="store">
+                    <div className="btn" >
+                        <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Пакет документов 180/365" /> 
@@ -29,8 +34,8 @@ const Price = () => (
                 </p>
             </div>
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Пакет документов 180/365" /> 
@@ -41,7 +46,7 @@ const Price = () => (
         <div className="center">
             <div className="store">
             <div className="btn" >
-                    <button onClick="showform()"> Купить </button>
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Сезонные Приглашение" /> 
@@ -49,8 +54,8 @@ const Price = () => (
                 </p>
             </div>
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Пакет документов 180/365" />
@@ -58,8 +63,8 @@ const Price = () => (
                 </p>
             </div>
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Анкета Польша - 70грн" /> 
@@ -68,8 +73,8 @@ const Price = () => (
         </div>
         <div className="bot">
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Воевудский Приглашение" /> 
@@ -77,8 +82,8 @@ const Price = () => (
                 </p>
             </div>
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Воевудский Приглашение" />
@@ -86,8 +91,8 @@ const Price = () => (
                 </p>  
             </div>
             <div className="store">
-            <div className="btn">
-                    <button> Купить </button>
+            <div className="btn" >
+                    <button onClick={showform}> Купить </button>
                     </div>
                 <p>
                 <Pricecomponent text="Воевудский Приглашение" /> 

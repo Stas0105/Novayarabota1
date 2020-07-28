@@ -1,4 +1,4 @@
-.main {
+#main {
     margin: auto;
     width: 100%;
     padding-top: 50px;
@@ -6,6 +6,7 @@
 .top {
     display: flex;
     width: 100%;
+
 }
 .center {
     display: flex;
@@ -40,8 +41,12 @@
     position: absolute;
     margin-top: 50px;
     margin: 0;
+    border-radius: 12px;
     
     
+}
+.buy {
+    font-size: 10mm;
 }
 .store .btn {
     position: absolute;
@@ -49,33 +54,47 @@
     margin-top: 50px;
     display: none;
 }
-.top :hover  .btn {
+.top :hover  
+    .btn {
         display: block;
     }
     .btn button {
         cursor: pointer;
     }
-.center :hover  .btn {
+.center :hover  
+    .btn {
         display: block;
     }
     .btn button {
         cursor: pointer;
     }
-.bot :hover  .btn {
+.bot :hover  
+    .btn {
         display: block;
     }
     .btn button {
         cursor: pointer;
     }
-.form {
+#form {
     position: absolute;
-    width:33%;
     height: 200px;
     border:blue 2px solid;
-    margin-left: 33%;
-    background-color: blanchedalmond;
-    margin-top: 200px;
+    width: 33%;
+    left: 33%;
     display: none;
+    background-color: brown;
+}
+#form button {
+    float: right;
+    background-color: darkred;
+}
+#form button :hover {
+    cursor: pointer;
+}
+#form button img {
+    width: 30px;
+    height: 30px;
+    float: right;
 }
 
 
